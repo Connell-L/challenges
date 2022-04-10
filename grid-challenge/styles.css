@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+}
+
+.redbox {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  width: 70vw;
+  height: 70vh;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.box {
+  width: 60px;
+  height: 60px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
